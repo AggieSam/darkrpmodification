@@ -35,3 +35,17 @@ GAMEMODE.CivilProtection = {
 Jobs that are hitmen (enables the hitman menu)
 ---------------------------------------------------------------------------]]
 DarkRP.addHitmanTeam(TEAM_MOB)
+TEAM_JUGGERNAUT = DarkRP.createJob("Juggernaut", {
+	color = Color(30, 100, 160, 255),
+	model = {"models/tfusion/playermodels/mw3/sp_juggernaut.mdl"},
+	description = [[Walking Bullet Sponge]],
+	weapons = {"m9k_remington7615p", "stunstick", "door_ram"},
+	command = "juggernautcop",
+	max = 3,
+	salary = 150,
+	admin = 0,
+	vote = true,
+	hasLicense = true,
+	candemote = true,
+	category = "Civil Protection",
+})
