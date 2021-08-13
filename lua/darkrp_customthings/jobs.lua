@@ -30,8 +30,9 @@ GAMEMODE.CivilProtection = {
     [TEAM_POLICE] = true,
     [TEAM_CHIEF] = true,
     [TEAM_MAYOR] = true,
-}
+}DarkRP.addHitmanTeam(TEAM_MOB)
+
+})
 --[[---------------------------------------------------------------------------
 Jobs that are hitmen (enables the hitman menu)
 ---------------------------------------------------------------------------]]
-DarkRP.addHitmanTeam(TEAM_MOB)
